@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-a,
-a:focus,
-a:hover {
+.toplink a,
+.toplink a:focus,
+.toplink a:hover {
   color: white;
 }
 
