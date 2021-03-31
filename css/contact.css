@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.toplink a,
+.toplink a:focus,
+.toplink a:hover {
+  color: white;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333333;
+  text-shadow: none;
+  background-color: white;
+  border: .05rem solid white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #37474f;
+}
+
+body {
+  color: white;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+h1{
+  color: #f9be20;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: white;
+  border-bottom-color: white;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+
+
+
+.voeter p{
+  margin-left: 1050px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.factcheck{
+  background-color: white;
+  position: absolute;
+  height: 90%;
+  margin-top: 30px;
+}
+
+hr.style1{
+  border-top: 1px solid #f9be20;
+}
+
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.right {
+  text-align: right;
+}
+
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}

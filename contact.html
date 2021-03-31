@@ -19,14 +19,32 @@
           <h3 class="masthead-brand">Refact</h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link active" href="values.html">Values</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="values.html">Values</a>
+            <a class="nav-link active" href="#">Contact</a>
           </nav>
         </div>
       </header>
 
       <main role="main" class="inner cover">
 
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "https://realnewsrightnow.com/2016/10/louisiana-penitentiary-to-become-worlds-first-prison-staffed-entirely-by-robots/";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="check.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
         
       </main>
 

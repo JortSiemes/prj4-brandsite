@@ -32,13 +32,25 @@
         <p class="lead">
 
           <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="URL" aria-label="Search"
+            <input id="pswd" type="search" class="form-control rounded" placeholder="URL" aria-label="Search"
               aria-describedby="search-addon" />
           </div><br>
 
-          <a href="check.html" class="btn btn-lg btn-secondary">Search</a>
-         
+          <a class="btn btn-lg btn-secondary" value="Submit" onclick="checkPswd();" />Search</a>
         </p>
+
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "https://realnewsrightnow.com/2016/10/louisiana-penitentiary-to-become-worlds-first-prison-staffed-entirely-by-robots/";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="check.html";
+        }
+        else{
+            alert("URL not found, Please upload provided link.");
+        }
+    }
+</script>
 
       </main>
 
