@@ -118,3 +118,27 @@ h1, h3{
   font-style: italic;
 }
 
+.justification{
+  color: #f9be20;
+  text-align: left;
+}
+
+.Wireframe {
+  color: #f9be20;
+  text-align: left;
+}
+
+.flow_diagram {
+  color: #f9be20;
+  text-align: left;
+}
+
+.prototype {
+  color: #f9be20;
+  text-align: left;
+}
+
+.report{
+  color: #f9be20;
+  text-align: left;
+}
