@@ -142,3 +142,8 @@ h1, h3{
   color: #f9be20;
   text-align: left;
 }
+
+.image1 img{
+    height: 30%;
+    margin-top: -10px;
+}
