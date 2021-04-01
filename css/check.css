@@ -6,7 +6,6 @@
   color: white;
 }
 
-
 html,
 body {
   height: 100%;
@@ -56,26 +55,65 @@ h1, h3{
   }
 }
 
-
-
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
 
-
-
-
-
-
-
 .voeter p{
-  margin-left: 1050px;
+  left: 47%;
   position: absolute;
   bottom: 15px;
 }
-
 
 hr.style1{
   border-top: 1px solid #f9be20;
 }
 
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.test{
+  background-color: red;
+  height: 730px;
+  width: 400px;
+}
+
+.bar-container {
+  width: 70%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+.indent{
+  margin-left: 15px;
+}
+
+.bar-3 {
+  width: 15%; height: 18px; background-color: #00bcd4;
+}
