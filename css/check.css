@@ -6,14 +6,6 @@
   color: white;
 }
 
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333333;
-  text-shadow: none;
-  background-color: white;
-  border: .05rem solid white;
-}
 
 html,
 body {
@@ -64,27 +56,15 @@ h1, h3{
   }
 }
 
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
+
 
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
 
 
-.iframecontainer {
-}
 
-.iframecontainer iframe {
-   border: 0;
-   height: 90%;
-   position: absolute;
-   left: 50px;
-   top: 65px;
-   width: 35%;
-}
+
 
 
 
@@ -94,39 +74,8 @@ h1, h3{
   bottom: 15px;
 }
 
-.factcheck{
-  background-color: white;
-  position: absolute;
-  height: 90%;
-  margin-top: 30px;
-}
 
 hr.style1{
   border-top: 1px solid #f9be20;
 }
 
-
-.side {
-  float: left;
-  width: 15%;
-  margin-top:10px;
-}
-
-.middle {
-  margin-top:10px;
-  float: left;
-  width: 70%;
-}
-
-.bar-container {
-  width: 100%;
-  background-color: #f1f1f1;
-  text-align: center;
-  color: white;
-}
-
-.right {
-  text-align: right;
-}
-
-.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
