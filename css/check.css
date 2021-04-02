@@ -116,3 +116,24 @@ hr.style1{
 .bar-3 {
   width: 15%; height: 18px; background-color: #00bcd4;
 }
+
+.iframecontainer iframe {
+   border: 0;
+   height: 90%;
+   position: absolute;
+   left: 50px;
+   top: 65px;
+   width: 35%;
+   background: transparent;
+      z-index: 1;
+}
+
+.spinner img{
+   width: 10px;
+}
+
+.iframe_container .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
