@@ -86,7 +86,6 @@ hr.style1{
 }
 
 .test{
-  background-color: red;
   height: 730px;
   width: 400px;
 }
@@ -111,7 +110,7 @@ hr.style1{
 }
 
 .indent{
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .bar-3 {
