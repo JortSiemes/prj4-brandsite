@@ -122,3 +122,36 @@ hr.style1{
 .accordiontext p{
   color: black;
 }
+
+.icons img{
+  width: 50px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.icontext h5, .icontext{
+  color: white;
+  display: inline;
+}
+
+.ratings {
+     background-color: #fff;
+     padding: 30px;
+ }
+
+ .product-rating {
+     font-size: 50px
+ }
+
+ .stars i {
+     font-size: 18px;
+     color: #28a745
+ }
+
+ .rating-text {
+     margin-top: 10px
+ }
+
+ .reviewtext p{
+    color: black;
+ }
