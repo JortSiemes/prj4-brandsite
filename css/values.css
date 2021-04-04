@@ -199,3 +199,6 @@ h1, h3{
   text-indent: 3em;
 }
 
+.btnmargin a{
+  margin-right: 15px;
+}
