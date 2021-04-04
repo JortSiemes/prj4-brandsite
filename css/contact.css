@@ -151,3 +151,11 @@ hr.style1{
  .reviewtext p{
     color: black;
  }
+
+ .stars img{
+    width: 20px;
+ }
+
+ .stars{
+  margin-top: 5px;
+ }
