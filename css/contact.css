@@ -137,15 +137,11 @@ hr.style1{
 .ratings {
      background-color: #fff;
      padding: 30px;
+     border-radius: 5px;
  }
 
  .product-rating {
      font-size: 50px
- }
-
- .stars i {
-     font-size: 18px;
-     color: #28a745
  }
 
  .rating-text {
