@@ -30,6 +30,9 @@ h1, h3{
   color: #f9be20;
 }
 
+.italic{
+  font-style: italic;
+}
 .cover-container {
   max-width: 42em;
 }
@@ -146,4 +149,10 @@ h1, h3{
 .image1 img{
     height: 30%;
     margin-top: -10px;
+}
+
+.linkcallout a{
+  color: blue;
+    font-style: italic;
+  text-decoration: underline;
 }
